@@ -1,0 +1,12 @@
+/xxx 
+d gg     # xóa từ trỏ lên trên
+d shift g     # xóa từ trỏ xuốn
+:w file-name
+dd    # xóa dòng
+u    # undo
+ctrl + R    #redo
+:set nu/nonu
+:%s/nd cũ /nd mới / g        # thay thế all
+gg    # lên đầu trang
+shift g      # xuống cuối trang
+vimdiff    # so sán 2 văn bản
