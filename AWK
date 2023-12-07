@@ -1,1 +1,4 @@
 awk command
+awk '/xxx/ {print $num}' file     # in cột $num chứa ký tự xxx
+awk 'BEGIN {s=0} /xxx/ {s+=1} END {print s}' file     # đếm dòng chứa xxx
+
