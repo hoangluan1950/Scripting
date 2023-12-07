@@ -1,0 +1,4 @@
+grep xxx file
+grep -l xxx file
+grep -v xxx file       # loại trừ file có xxx
+egrep "abc|xyz" file     # tìm cả 2 từ trong file
