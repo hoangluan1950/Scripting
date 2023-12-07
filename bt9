@@ -1,0 +1,3 @@
+foreach_ cell [get_cells -p -f "ref_name=~*BUF*" ] {
+echo "[ get_att $cell  full_name ] [get_att $cell  ref_name ]" 
+} > file_bt9
